@@ -138,7 +138,7 @@ describe('Function "scoresAverage"', () => {
       8.67
     );
   });
-
+  
   it('should return 0 if an empty array is passed', () => {
     expect(scoresAverage([])).toBe(0);
   });
